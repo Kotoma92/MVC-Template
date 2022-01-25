@@ -1,6 +1,6 @@
 function buttonOne() {
-    if (templateInput == "69420") enDiv = "Du fant min hemmelige kode!";
-    else if (templateInput == "Snømann") enDiv = `
+    if (templateInput == "69420") templateDiv = "Du fant min hemmelige kode!";
+    else if (templateInput == "Snømann") templateDiv = `
     
     <svg width="300" height="600">
     <circle cx="150" cy="150" r="35" stroke="black" stroke-width="4" fill="white" />
@@ -16,7 +16,7 @@ function buttonOne() {
     <line x1="190" y1="200" x2="240" y2="100" style="stroke:black;stroke-width:4px";/>
     </svg>`;
 
-    else enDiv = "";
+    else templateDiv = "";
 
-    updateview();
+    updateView();
 }
